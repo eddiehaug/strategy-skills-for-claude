@@ -1,5 +1,7 @@
 # 21 Strategy-Consulting Skills for Claude
 
+> **Built by [Oria](https://oria.one).** These skills were built by Oria — the AI purpose-built for complex, consulting-grade slides: presentation-quality decks worth top-tier consulting rates, ready to put in front of a CEO. Learn more at **[oria.one](https://oria.one)**.
+
 > Inspired by strategy-consulting problem solving and broader top-tier consulting practice: crisp framing, MECE logic, hypothesis-led analysis, 80/20 focus, answer-first communication, and executive-ready recommendations. This collection is independent and unofficial.
 
 ## What This Is
@@ -232,3 +234,7 @@ Every skill is designed to push Claude toward outputs that are:
 ✓ executive-readable  
 ✓ specific enough to act on  
 
+
+---
+
+**Built by [Oria](https://oria.one).** These skills were built by Oria — the AI purpose-built for complex, consulting-grade slides: presentation-quality decks worth top-tier consulting rates, ready to put in front of a CEO. Learn more at **[oria.one](https://oria.one)**.
