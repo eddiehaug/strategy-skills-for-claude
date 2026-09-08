@@ -1,6 +1,90 @@
-# 21 Strategy-Consulting Skills for Claude
+<!-- BLOCK 1: Oria slide showcase -->
+<p align="center">
+  <a href="https://www.oria.one/?utm_source=github&utm_medium=readme&utm_campaign=strategy-skills-for-claude">
+    <img src="https://raw.githubusercontent.com/aapersh/strategy-skills-for-claude/main/.github/assets/slide-row-1.png" width="100%" alt="Slides built with Oria — executive summary, financial waterfall, competitive landscape, KPI dashboard">
+  </a>
+</p>
+<p align="center">
+  <a href="https://www.oria.one/?utm_source=github&utm_medium=readme&utm_campaign=strategy-skills-for-claude">
+    <img src="https://raw.githubusercontent.com/aapersh/strategy-skills-for-claude/main/.github/assets/slide-row-2.png" width="100%" alt="Slides built with Oria — workstream gantt, AI pilot framework, growth roadmap, org design">
+  </a>
+</p>
 
-> **Built by [Oria](https://oria.one).** These skills were built by Oria — the AI purpose-built for complex, consulting-grade slides: presentation-quality decks worth top-tier consulting rates, ready to put in front of a CEO. Learn more at **[oria.one](https://oria.one)**.
+<br />
+
+<!-- BLOCK 2: Positioning -->
+<p align="center">
+  <a href="https://www.oria.one/?utm_source=github&utm_medium=readme&utm_campaign=strategy-skills-for-claude">
+    <img src="https://raw.githubusercontent.com/aapersh/strategy-skills-for-claude/main/.github/assets/oria-logo.png" width="72" alt="Oria">
+  </a>
+</p>
+
+<h1 align="center">Built by Oria</h1>
+
+<h3 align="center">Build Professional Slides That Do Not Feel Like AI</h3>
+
+<p align="center">
+  Consulting-grade complex slides that follow the exact look and feel of your company.<br />
+  Made for consultants, bankers and strategy teams who build boardroom-style decks<br />
+  inside <b>PowerPoint</b>, <b>Claude</b> and <b>ChatGPT</b>.
+</p>
+
+<p align="center">
+  <a href="https://www.oria.one/?utm_source=github&utm_medium=readme&utm_campaign=strategy-skills-for-claude"><img src="https://img.shields.io/badge/Try%20Oria-Free%20trial-1A1A1A?style=for-the-badge&labelColor=2563EB&color=1E40AF" alt="Try Oria free"></a>
+  <a href="https://www.oria.one/install?utm_source=github&utm_medium=readme&utm_campaign=strategy-skills-for-claude"><img src="https://img.shields.io/badge/Install-PowerPoint%20add--in-1A1A1A?style=for-the-badge&labelColor=1A1A1A&color=1A1A1A" alt="Install the PowerPoint add-in"></a>
+  <a href="https://account.oria.one/get-started?flow=slide-new&utm_source=github&utm_medium=readme&utm_campaign=strategy-skills-for-claude"><img src="https://img.shields.io/badge/Install-Claude%20%2F%20ChatGPT-1A1A1A?style=for-the-badge&labelColor=1A1A1A&color=1A1A1A" alt="Install for Claude and ChatGPT"></a>
+</p>
+
+<p align="center">
+  <a href="https://www.oria.one/?utm_source=github&utm_medium=readme&utm_campaign=strategy-skills-for-claude"><strong>oria.one »</strong></a>
+</p>
+
+<br />
+
+<!-- BLOCK 3: The two product demos + features -->
+<h3 align="center">Create stunning slides in PowerPoint — and CEO-ready documents in Claude and ChatGPT</h3>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aapersh/strategy-skills-for-claude/main/.github/assets/logo-left.png" width="53%" alt="Works in PowerPoint">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aapersh/strategy-skills-for-claude/main/.github/assets/logo-right-dark.png"><img src="https://raw.githubusercontent.com/aapersh/strategy-skills-for-claude/main/.github/assets/logo-right-light.png" width="45%" alt="Works in Claude and ChatGPT"></picture>
+</p>
+
+<p align="center">
+  <a href="https://www.oria.one/install?utm_source=github&utm_medium=readme&utm_campaign=strategy-skills-for-claude"><img src="https://raw.githubusercontent.com/aapersh/strategy-skills-for-claude/main/.github/assets/oria-powerpoint-demo.gif" width="53%" alt="Oria generating a professional slide inside PowerPoint from a text prompt"></a>
+  <a href="https://www.oria.one/?utm_source=github&utm_medium=readme&utm_campaign=strategy-skills-for-claude"><img src="https://raw.githubusercontent.com/aapersh/strategy-skills-for-claude/main/.github/assets/oria-claude-demo.gif" width="45%" alt="Oria building a CEO-ready document inside Claude from a text prompt"></a>
+</p>
+
+<br />
+
+### What Oria does
+
+| | Feature | What it means |
+|:--|:--|:--|
+| **01** | **Slides that do not look AI-generated** | None of the boxy, template-stacked look. Layouts structured to consulting standards. |
+| **02** | **Multiple design options with one click** | Compare distinct design options instantly. Never settle for a single default draft. |
+| **03** | **Precisely follows the brand** | Well beyond base colours and fonts — your firm's exact look and feel. |
+| **04** | **Fully editable, native output** | Real PowerPoint shapes, never images. Refine every element as you always do. |
+
+**Built for every slide scenario** — turn rough ideas, an audio note or a brain dump into CEO-ready slides · paste structured output from Claude or ChatGPT and get polished designs · upload an existing slide and get a cleaner one back · snap a photo of handwritten notes and get fully editable slides.
+
+**Enterprise-grade security** — zero data retention, working artifacts self-destruct within one hour · Oria does not use your content to train or fine-tune models · enterprise agreements with leading AI providers · fully private cloud or on-premise deployments.
+
+> "I've been looking for AI tools to create PowerPoint slides. The best one I've found so far is **Oria**."
+>
+> — **Will Bachman**, Founder and CEO of Umbrex, Global Community of Top-Tier Management Consultants
+
+<p align="center">
+  <a href="https://www.oria.one/install?utm_source=github&utm_medium=readme&utm_campaign=strategy-skills-for-claude"><strong>Install Oria for PowerPoint »</strong></a>
+</p>
+
+<br />
+<br />
+
+---
+
+<!-- BLOCK 5: This repository -->
+
+# 21 Strategy-Consulting Skills for Claude
 
 > Inspired by strategy-consulting problem solving and broader top-tier consulting practice: crisp framing, MECE logic, hypothesis-led analysis, 80/20 focus, answer-first communication, and executive-ready recommendations. This collection is independent and unofficial.
 
@@ -232,9 +316,25 @@ Every skill is designed to push Claude toward outputs that are:
 ✓ evidence-aware  
 ✓ assumption-conscious  
 ✓ executive-readable  
-✓ specific enough to act on  
+✓ specific enough to act on
 
+## More free Claude skills from Oria
 
----
+- [claude-powerpoint-skills](https://github.com/andreworia/claude-powerpoint-skills) — storyline, action titles, exhibits and partner-grade deck review
+- [claude-consulting-skills](https://github.com/andreworia/claude-consulting-skills) — problem framing, issue trees, hypothesis design and synthesis
+- [claude-finance-skills](https://github.com/andreworia/claude-finance-skills) — valuation, comps, LBO returns, diligence and IC memos
+- [claude-excel-skills](https://github.com/andreworia/claude-excel-skills) — model architecture, drivers, scenarios and formula audit
+- [claude-pptx-skills](https://github.com/andreworia/claude-pptx-skills) — corporate templates, brand compliance, export and accessibility
 
-**Built by [Oria](https://oria.one).** These skills were built by Oria — the AI purpose-built for complex, consulting-grade slides: presentation-quality decks worth top-tier consulting rates, ready to put in front of a CEO. Learn more at **[oria.one](https://oria.one)**.
+More skill packs and prompt libraries: [oria.one/resources](https://www.oria.one/resources?utm_source=github&utm_medium=readme&utm_campaign=strategy-skills-for-claude).
+
+<br />
+
+<p align="center">
+  <a href="https://www.oria.one/?utm_source=github&utm_medium=readme&utm_campaign=strategy-skills-for-claude">
+    <img src="https://raw.githubusercontent.com/aapersh/strategy-skills-for-claude/main/.github/assets/oria-logo.png" width="44" alt="Oria">
+  </a>
+</p>
+<p align="center">
+  <sub>Built by <a href="https://www.oria.one/?utm_source=github&utm_medium=readme&utm_campaign=strategy-skills-for-claude"><b>Oria</b></a> — AI for complex professional slides</sub>
+</p>
