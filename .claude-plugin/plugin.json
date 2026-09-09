@@ -4,5 +4,6 @@
   "description": "21 strategy-consulting skills for Claude: diagnose the problem, map the market, choose a strategy, plan execution, govern value, and communicate the recommendation.",
   "author": { "name": "Edvard Haugland" },
   "repository": "https://github.com/eddiehaug/strategy-skills-for-claude",
+  "license": "MIT",
   "keywords": ["strategy", "consulting", "business-case", "market-mapping", "decision-memo"]
 }
