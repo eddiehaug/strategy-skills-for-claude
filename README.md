@@ -123,38 +123,34 @@ Most strategy prompts fail because they ask for insight before the work is struc
 strategy-skills-for-claude/
 │
 ├── README.md
+├── .claude-plugin/
+│   └── plugin.json
 │
 └── skills/
-    ├── 01-diagnosis-and-framing/
-    │   ├── situation-assessment.md
-    │   ├── growth-barriers.md
-    │   └── assumption-audit.md
-    ├── 02-market-and-competitive-intelligence/
-    │   ├── market-mapping.md
-    │   ├── competitive-intel.md
-    │   ├── customer-segmentation.md
-    │   └── profit-pool-analysis.md
-    ├── 03-strategic-choice-and-economics/
-    │   ├── strategic-options.md
-    │   ├── pricing-strategy.md
-    │   ├── business-case-builder.md
-    │   └── portfolio-review.md
-    ├── 04-operating-model-and-execution/
-    │   ├── operating-model-design.md
-    │   ├── initiative-prioritizer.md
-    │   └── transformation-roadmap.md
-    ├── 05-risk-performance-and-value-governance/
-    │   ├── war-gaming.md
-    │   ├── risk-and-mitigation.md
-    │   ├── kpi-architect.md
-    │   └── value-realization.md
-    └── 06-alignment-and-executive-communication/
-        ├── stakeholder-alignment.md
-        ├── narrative-builder.md
-        └── decision-memo.md
+    ├── situation-assessment/SKILL.md
+    ├── growth-barriers/SKILL.md
+    ├── assumption-audit/SKILL.md
+    ├── market-mapping/SKILL.md
+    ├── competitive-intel/SKILL.md
+    ├── customer-segmentation/SKILL.md
+    ├── profit-pool-analysis/SKILL.md
+    ├── strategic-options/SKILL.md
+    ├── pricing-strategy/SKILL.md
+    ├── business-case-builder/SKILL.md
+    ├── portfolio-review/SKILL.md
+    ├── operating-model-design/SKILL.md
+    ├── initiative-prioritizer/SKILL.md
+    ├── transformation-roadmap/SKILL.md
+    ├── war-gaming/SKILL.md
+    ├── risk-and-mitigation/SKILL.md
+    ├── kpi-architect/SKILL.md
+    ├── value-realization/SKILL.md
+    ├── stakeholder-alignment/SKILL.md
+    ├── narrative-builder/SKILL.md
+    └── decision-memo/SKILL.md
 ```
 
-Each markdown file under `skills/` is an individual skill definition. To upload one into Claude, place the chosen file in a temporary folder and name it `SKILL.md`.
+The repository is a Claude Code plugin. Each folder under `skills/` holds one skill as a `SKILL.md` file, and the six consulting domains below group them by the stage of an engagement they serve.
 
 ## The 21 Skills
 
@@ -164,9 +160,9 @@ Use these when the team needs to understand the real problem before choosing a m
 
 | Skill | Use It When | Output |
 |---|---|---|
-| [Situation Assessment](skills/01-diagnosis-and-framing/situation-assessment.md) | You need the factual baseline before choosing a direction | Fact base, momentum read, issues list |
-| [Growth Barriers](skills/01-diagnosis-and-framing/growth-barriers.md) | Growth is stuck and leadership is debating symptoms | Constraint diagnosis and evidence plan |
-| [Assumption Audit](skills/01-diagnosis-and-framing/assumption-audit.md) | A strategy depends on beliefs that may be weak | Assumption register and test plan |
+| [Situation Assessment](skills/situation-assessment/SKILL.md) | You need the factual baseline before choosing a direction | Fact base, momentum read, issues list |
+| [Growth Barriers](skills/growth-barriers/SKILL.md) | Growth is stuck and leadership is debating symptoms | Constraint diagnosis and evidence plan |
+| [Assumption Audit](skills/assumption-audit/SKILL.md) | A strategy depends on beliefs that may be weak | Assumption register and test plan |
 
 ### 2. Market and Competitive Intelligence
 
@@ -174,10 +170,10 @@ Use these when the answer depends on where value is, how customers differ, how r
 
 | Skill | Use It When | Output |
 |---|---|---|
-| [Market Mapping](skills/02-market-and-competitive-intelligence/market-mapping.md) | You need to size, segment, and map white space | Market map and where-to-play options |
-| [Competitive Intel](skills/02-market-and-competitive-intelligence/competitive-intel.md) | You need to predict likely competitor moves | Rival move map and response plan |
-| [Customer Segmentation](skills/02-market-and-competitive-intelligence/customer-segmentation.md) | You need sharper customer groups for strategy decisions | MECE segments and segment priorities |
-| [Profit Pool Analysis](skills/02-market-and-competitive-intelligence/profit-pool-analysis.md) | You need to know where value is created and captured | Profit pool map and strategic implications |
+| [Market Mapping](skills/market-mapping/SKILL.md) | You need to size, segment, and map white space | Market map and where-to-play options |
+| [Competitive Intel](skills/competitive-intel/SKILL.md) | You need to predict likely competitor moves | Rival move map and response plan |
+| [Customer Segmentation](skills/customer-segmentation/SKILL.md) | You need sharper customer groups for strategy decisions | MECE segments and segment priorities |
+| [Profit Pool Analysis](skills/profit-pool-analysis/SKILL.md) | You need to know where value is created and captured | Profit pool map and strategic implications |
 
 ### 3. Strategic Choice and Economics
 
@@ -185,10 +181,10 @@ Use these when leaders need choices, trade-offs, economics, and allocation decis
 
 | Skill | Use It When | Output |
 |---|---|---|
-| [Strategic Options](skills/03-strategic-choice-and-economics/strategic-options.md) | You need alternatives before committing to a path | Option set, criteria, recommendation |
-| [Pricing Strategy](skills/03-strategic-choice-and-economics/pricing-strategy.md) | Pricing power, discounting, or monetization is unclear | Pricing diagnosis and action plan |
-| [Business Case Builder](skills/03-strategic-choice-and-economics/business-case-builder.md) | A decision needs economics, sensitivities, and risks | Business case and decision logic |
-| [Portfolio Review](skills/03-strategic-choice-and-economics/portfolio-review.md) | You need to allocate resources across bets | Portfolio diagnosis and allocation choices |
+| [Strategic Options](skills/strategic-options/SKILL.md) | You need alternatives before committing to a path | Option set, criteria, recommendation |
+| [Pricing Strategy](skills/pricing-strategy/SKILL.md) | Pricing power, discounting, or monetization is unclear | Pricing diagnosis and action plan |
+| [Business Case Builder](skills/business-case-builder/SKILL.md) | A decision needs economics, sensitivities, and risks | Business case and decision logic |
+| [Portfolio Review](skills/portfolio-review/SKILL.md) | You need to allocate resources across bets | Portfolio diagnosis and allocation choices |
 
 ### 4. Operating Model and Execution
 
@@ -196,9 +192,9 @@ Use these when the strategy must become work: capabilities, decision rights, ini
 
 | Skill | Use It When | Output |
 |---|---|---|
-| [Operating Model Design](skills/04-operating-model-and-execution/operating-model-design.md) | Strategy needs translation into how work gets done | Capabilities, governance, decision rights |
-| [Initiative Prioritizer](skills/04-operating-model-and-execution/initiative-prioritizer.md) | Too many initiatives compete for attention | Ranked roadmap and kill list |
-| [Transformation Roadmap](skills/04-operating-model-and-execution/transformation-roadmap.md) | A strategy must become sequenced execution | Phased roadmap, owners, risks |
+| [Operating Model Design](skills/operating-model-design/SKILL.md) | Strategy needs translation into how work gets done | Capabilities, governance, decision rights |
+| [Initiative Prioritizer](skills/initiative-prioritizer/SKILL.md) | Too many initiatives compete for attention | Ranked roadmap and kill list |
+| [Transformation Roadmap](skills/transformation-roadmap/SKILL.md) | A strategy must become sequenced execution | Phased roadmap, owners, risks |
 
 ### 5. Risk, Performance, and Value Governance
 
@@ -206,10 +202,10 @@ Use these when the recommendation needs pressure-testing, risk control, measurem
 
 | Skill | Use It When | Output |
 |---|---|---|
-| [War Gaming](skills/05-risk-performance-and-value-governance/war-gaming.md) | A strategy needs pressure-testing before launch | Scenario stress test and response moves |
-| [Risk and Mitigation](skills/05-risk-performance-and-value-governance/risk-and-mitigation.md) | Strategic risk needs an owner and response plan | Risk register and contingencies |
-| [KPI Architect](skills/05-risk-performance-and-value-governance/kpi-architect.md) | Metrics are noisy, lagging, or performative | Decision-linked KPI system |
-| [Value Realization](skills/05-risk-performance-and-value-governance/value-realization.md) | Benefits must be tracked after launch | Value ledger and governance model |
+| [War Gaming](skills/war-gaming/SKILL.md) | A strategy needs pressure-testing before launch | Scenario stress test and response moves |
+| [Risk and Mitigation](skills/risk-and-mitigation/SKILL.md) | Strategic risk needs an owner and response plan | Risk register and contingencies |
+| [KPI Architect](skills/kpi-architect/SKILL.md) | Metrics are noisy, lagging, or performative | Decision-linked KPI system |
+| [Value Realization](skills/value-realization/SKILL.md) | Benefits must be tracked after launch | Value ledger and governance model |
 
 ### 6. Alignment and Executive Communication
 
@@ -217,28 +213,40 @@ Use these when the work must survive the meeting: pre-wire stakeholders, sharpen
 
 | Skill | Use It When | Output |
 |---|---|---|
-| [Stakeholder Alignment](skills/06-alignment-and-executive-communication/stakeholder-alignment.md) | The recommendation needs pre-wiring before the meeting | Stakeholder map and engagement plan |
-| [Narrative Builder](skills/06-alignment-and-executive-communication/narrative-builder.md) | You need the story to land in the first 60 seconds | Pyramid story, SCQA, hostile Q&A |
-| [Decision Memo](skills/06-alignment-and-executive-communication/decision-memo.md) | An executive needs a clear recommendation in writing | Decision memo with options and next steps |
+| [Stakeholder Alignment](skills/stakeholder-alignment/SKILL.md) | The recommendation needs pre-wiring before the meeting | Stakeholder map and engagement plan |
+| [Narrative Builder](skills/narrative-builder/SKILL.md) | You need the story to land in the first 60 seconds | Pyramid story, SCQA, hostile Q&A |
+| [Decision Memo](skills/decision-memo/SKILL.md) | An executive needs a clear recommendation in writing | Decision memo with options and next steps |
 
 ## How To Install
 
-This repository keeps the 21 skills as standalone markdown files grouped under `skills/`. Claude expects an uploaded skill folder to contain a file named `SKILL.md`, so use a small temporary folder when you want to install one.
+### As a Claude Code plugin (all 21 skills at once)
 
-1. Pick a markdown file under one of the `skills/` category folders.
-2. Create a temporary folder with the skill name.
-3. Copy the chosen markdown file into that folder as `SKILL.md`.
-4. Zip that temporary folder if your Claude surface requires upload as a zip.
-5. Upload or place it in your Claude skills directory.
-6. Test with a clear strategy prompt.
+Add the repository as a marketplace, then install the plugin:
+
+```bash
+claude plugin marketplace add eddiehaug/strategy-skills-for-claude
+claude plugin install strategy-skills
+```
+
+Every skill then appears as `strategy-skills:<name>`, for example `strategy-skills:market-mapping`, and Claude picks the right one from your prompt.
+
+To try the plugin from a local checkout without installing it:
+
+```bash
+claude --plugin-dir /path/to/strategy-skills-for-claude
+```
+
+### As a single skill (claude.ai or other surfaces)
+
+1. Pick a folder under `skills/`.
+2. Zip that folder if your Claude surface requires upload as a zip.
+3. Upload or place it in your Claude skills directory.
+4. Test with a clear strategy prompt.
 
 Example:
 
 ```bash
-cd strategy-skills-for-claude
-mkdir -p upload/market-mapping
-cp skills/02-market-and-competitive-intelligence/market-mapping.md upload/market-mapping/SKILL.md
-cd upload
+cd strategy-skills-for-claude/skills
 zip -r market-mapping.zip market-mapping
 ```
 

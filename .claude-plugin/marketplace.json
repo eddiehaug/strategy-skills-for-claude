@@ -1,0 +1,14 @@
+{
+  "name": "strategy-skills-for-claude",
+  "owner": {
+    "name": "Edvard Haugland"
+  },
+  "description": "Strategy-consulting skills for Claude, packaged as one plugin.",
+  "plugins": [
+    {
+      "name": "strategy-skills",
+      "source": "./",
+      "description": "21 strategy-consulting skills for Claude: diagnose, map the market, choose a strategy, plan execution, govern value, and communicate the recommendation."
+    }
+  ]
+}
